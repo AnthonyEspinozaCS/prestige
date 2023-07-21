@@ -485,7 +485,7 @@ button {
   height: calc(100vh - 100px);
   background-color: var(--blue);
 
-  align-items: flex-end;
+  align-items: center;
 }
 
 .hero::after {
@@ -496,7 +496,7 @@ button {
   top: 0;
   left: 0;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 1) 95%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 .hero__image {
@@ -574,7 +574,7 @@ button {
 .about-us__article h2::after {
   content: " ";
   position: absolute;
-  width: 12rem;
+  width: 24rem;
   height: 5px;
   bottom: 10px;
   left: 0;
@@ -772,6 +772,7 @@ li h4 {
   top: 0;
   left: 0;
 
+  border-radius: 50%;
   object-fit: cover;
   object-position: center;
 }
@@ -796,7 +797,7 @@ li h4 {
 .board__bio {
   flex-direction: column;
 
-  text-align: left;
+  text-align: justify;
 }
 
 .board__bio p {
