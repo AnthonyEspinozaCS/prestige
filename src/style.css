@@ -293,6 +293,11 @@ body {
   background-size: 100% 100%;
 }
 
+.body__flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .primary-header {
   gap: 1rem;
   width: 100%;
@@ -894,6 +899,7 @@ li h4 {
 }
 
 footer {
+  margin-top: auto;
   background: linear-gradient(180deg, rgba(129, 202, 233, 1) 0%, rgba(129, 202, 233, 1) 30%, rgba(0, 26, 127, 1) 100%);
 }
 
