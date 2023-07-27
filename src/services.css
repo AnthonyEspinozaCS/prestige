@@ -1,3 +1,20 @@
+p {
+  text-align: justify;
+}
+
+#personal,
+#specialist,
+#health {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#personal h2,
+#specialist h2,
+#health h2 {
+  width: 100%;
+}
+
 #personal .personal-list {
   display: block;
   list-style: disc;
@@ -10,13 +27,38 @@
 
 #specialist .special-list,
 #health .special-list {
+  flex-direction: column;
+  flex: 1;
+
   list-style-type: disc;
   padding-left: 30px;
 }
+@media (min-width: 768px) {
+  #specialist .special-list,
+  #health .special-list {
+    width: calc(50% - 1rem);
+  }
+}
 
-.special-list li {
+#specialist .special-list li,
+#health .special-list li {
+  flex: 1;
   display: list-item;
   padding-top: 0;
+}
+
+.full {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .half--p {
+    width: calc(50% - 1rem);
+  }
+
+  .half {
+    width: calc(50% - 1rem);
+  }
 }
 
 .contact-form {
