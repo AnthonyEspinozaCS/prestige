@@ -36,7 +36,7 @@
 
 .contact-form--half input {
   padding: 1rem;
-  border: 3px solid var(--dark);
+  border: 2px solid var(--dark);
 }
 
 .contact-form--full {
@@ -51,13 +51,13 @@
   min-height: 150px;
   padding: 1rem;
 
-  border: 3px solid var(--dark);
+  border: 2px solid var(--dark);
 }
 
 .contact-form--full input {
   padding: 1rem;
 
-  border: 3px solid var(--dark);
+  border: 2px solid var(--dark);
 }
 
 @media (min-width: 768px) {
