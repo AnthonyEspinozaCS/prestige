@@ -37,7 +37,6 @@
 .contact-form--half input {
   padding: 1rem;
   border: 3px solid var(--dark);
-  border-radius: 10px;
 }
 
 .contact-form--full {
@@ -53,14 +52,12 @@
   padding: 1rem;
 
   border: 3px solid var(--dark);
-  border-radius: 10px;
 }
 
 .contact-form--full input {
   padding: 1rem;
 
   border: 3px solid var(--dark);
-  border-radius: 10px;
 }
 
 @media (min-width: 768px) {

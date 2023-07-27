@@ -496,7 +496,6 @@ button {
   top: 20px;
 
   background-color: #26509f;
-  border-radius: 5px;
   opacity: 0;
   z-index: 9999;
 }
@@ -561,16 +560,12 @@ button {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-
-  border-radius: 0px 0px 5px 5px;
 }
 
 .hero__image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
-  border-radius: 0px 0px 5px 5px;
 }
 
 /* @media (min-width: 1024px) {
@@ -586,7 +581,6 @@ button {
   margin-bottom: 15vh;
   margin-inline: auto;
 
-  border-radius: 5px;
   z-index: 1;
 }
 
@@ -602,7 +596,6 @@ button {
   margin: 4rem auto;
 
   background-color: white;
-  border-radius: 5px;
   box-shadow: 5px 5px 1px var(--blue);
   z-index: -5;
 }
@@ -637,7 +630,6 @@ button {
   left: 0;
 
   background: var(--gradient);
-  border-radius: 5px;
 }
 
 .article__2 {
@@ -669,11 +661,6 @@ button {
   }
 }
 
-.article__image {
-  width: 100%;
-  border-radius: 5px;
-}
-
 .div__image::after {
   content: " ";
   display: block;
@@ -684,7 +671,6 @@ button {
   right: -5px;
 
   background-color: var(--blue);
-  border-radius: 5px;
   z-index: -1;
 }
 
