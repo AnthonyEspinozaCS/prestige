@@ -16,33 +16,37 @@ p {
 }
 
 #personal .personal-list {
-  display: block;
+  display: flex;
+  gap: 0;
+  justify-content: space-between;
   list-style: disc;
   padding-left: 30px;
 }
 
 .personal-list li {
   display: list-item;
+  flex: 0 1 450px;
 }
 
 #specialist .special-list,
 #health .special-list {
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   flex: 1;
 
   list-style-type: disc;
   padding-left: 30px;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   #specialist .special-list,
   #health .special-list {
     width: calc(50% - 1rem);
   }
-}
+} */
 
 #specialist .special-list li,
 #health .special-list li {
-  flex: 1;
+  flex: 1 450px;
   display: list-item;
   padding-top: 0;
 }
