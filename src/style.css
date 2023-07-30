@@ -682,7 +682,7 @@ button {
   box-shadow: none;
 }
 
-.article__img:nth-of-type(2) {
+#second__image {
   margin-block: 0;
 }
 
