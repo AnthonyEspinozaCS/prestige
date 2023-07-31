@@ -299,9 +299,8 @@ button {
 body {
   position: relative;
 
-  background-color: var(--white);
-  background: var(--light-gradient--v);
-  background-size: cover;
+  background-image: var(--light-gradient--v);
+  background-size: 100% 100%;
 }
 
 .body__flex {
