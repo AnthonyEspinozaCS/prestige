@@ -301,7 +301,7 @@ body {
 
   background-color: var(--white);
   background-image: var(--light-gradient--v);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .body__flex {
