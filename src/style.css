@@ -300,7 +300,7 @@ body {
   position: relative;
 
   background-color: var(--white);
-  background-image: var(--light-gradient--v);
+  background: var(--light-gradient--v);
   background-size: cover;
 }
 
