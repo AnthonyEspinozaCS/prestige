@@ -5,14 +5,14 @@ p {
 #personal,
 #specialist,
 #health {
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 #personal h2,
 #specialist h2,
 #health h2 {
-  width: 100%;
+  width: fit-content;
 }
 
 #personal .personal-list {
