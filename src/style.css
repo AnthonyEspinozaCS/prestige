@@ -855,6 +855,11 @@ li h4 {
   font-weight: 300;
 }
 
+.board__certs {
+  font-size: var(--fs-600);
+  font-weight: 300;
+}
+
 .board__member--portrait {
   width: 250px;
   height: 250px;
