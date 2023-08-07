@@ -29,6 +29,12 @@
 
       <nav>
         <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li class="active">
+            <a href="/index.html" class="ff-sans-normal fs-nav text-black">Home</a>
+          </li>
+          <li class="">
+            <a href="/about.html" class="ff-sans-normal fs-nav text-black">About Us</a>
+          </li>
           <li class="top-menu">
             <a href="/services.html" class="ff-sans-normal fs-nav text-black">Services</a>
             <div class="sub-menu">
@@ -43,9 +49,6 @@
             </div>
           </li>
           <li class="">
-            <a href="/about.html" class="ff-sans-normal fs-nav text-black">About Us</a>
-          </li>
-          <li class="">
             <a href="/services.html#livein" class="ff-sans-normal fs-nav text-black">Careers</a>
           </li>
         </ul>
@@ -57,9 +60,9 @@
         <picture class="hero__image">
           <!-- <source media="(max-width: 600px)" srcset="/src/hero-m.jpg" /> -->
           <source media="(max-width: 600px)" srcset="/src/hero-mob.jpg" />
-          <source media="(min-width: 601px)" srcset="/src/hero-m.jpg" />
+          <source media="(max-width: 1200px)" srcset="/src/hero-m.jpg" />
           <source media="(min-width: 1201px)" srcset="/src/hero.jpg" />
-          <img src="/src/hero-mob.jpg" alt="An elderly couple sitting on a bench." class="" />
+          <img src="/src/hero.jpg" alt="An elderly couple sitting on a bench." class="" />
         </picture>
         <div class="hero__p">
           <h1 class="hero__header container ff-oswald text-white">Your home care partner</h1>
@@ -166,7 +169,7 @@
     </main>
 
     <footer>
-      <section class="container flex footer__section">
+      <section class="flex footer__section">
         <a href="/index.html" class="footer__link"><img src="/src/logo-white.png" alt="AMR Dental Solution logos." class="footer__logo" /></a>
         <ul class="fs-medium text-white">
           <li><a href="/index.html">Home</a></li>

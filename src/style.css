@@ -980,10 +980,10 @@ footer {
 
 .footer__logo {
   position: relative;
-  width: 350px;
+  width: 166px;
   height: 100px;
-  margin-inline: auto;
-  object-fit: contain;
+  margin-left: 2rem;
+  object-fit: cover;
 }
 
 /*   .footer__section::after {
@@ -1005,8 +1005,8 @@ footer ul {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 01rem;
-  padding: 0;
+  gap: 1rem;
+  padding-inline: clamp(1rem, 2.5vw, 3rem);
 }
 
 footer li {
