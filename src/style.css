@@ -20,7 +20,7 @@
   --blue-2: #001a7f;
 
   --gradient: linear-gradient(90deg, rgba(243, 203, 81, 1) 0%, rgba(240, 210, 127, 1) 33%, rgba(168, 124, 45, 1) 66%, rgba(144, 97, 38, 1) 100%);
-  --light-gradient: linear-gradient(90deg, rgba(129, 202, 233, 1) 0%, rgba(0, 26, 127, 1) 100%);
+  --light-gradient: linear-gradient(270deg, rgba(129, 202, 233, 1) 0%, rgba(0, 26, 127, 1) 100%);
   --light-gradient--v: linear-gradient(180deg, rgba(129, 202, 233, 1) 0%, rgba(0, 26, 127, 1) 100%);
 
   /* font-sizes */
@@ -655,6 +655,10 @@ button {
   margin-top: 4rem;
 }
 
+.home #board-intro {
+  margin-top: 0;
+}
+
 .about-us__article h2 {
   position: relative;
   display: block;
@@ -709,6 +713,10 @@ button {
 .article__img:nth-of-type(1),
 .article__img:nth-of-type(2) {
   object-position: top;
+}
+
+.article__img.chairs {
+  object-position: center;
 }
 
 .article__2 {

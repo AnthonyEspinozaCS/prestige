@@ -15,7 +15,7 @@ p {
   width: fit-content;
 }
 
-#personal .personal-list {
+#services .personal-list {
   display: flex;
   gap: 0;
   justify-content: space-between;
