@@ -589,6 +589,10 @@ button {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
+.hero.service::after {
+  background-image: none;
+}
+
 .hero__image {
   position: absolute;
   width: 100%;
@@ -628,6 +632,10 @@ button {
   letter-spacing: 1px;
 }
 
+.service__header {
+  text-shadow: 3px 3px 2px var(--dark);
+}
+
 .page-content {
   position: relative;
   margin: 4rem auto;
@@ -653,10 +661,6 @@ button {
 
 .home .about-us__article {
   margin-top: 4rem;
-}
-
-.home #board-intro {
-  margin-top: 0;
 }
 
 .about-us__article h2 {

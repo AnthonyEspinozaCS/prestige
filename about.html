@@ -49,14 +49,25 @@
             </div>
           </li>
           <li class="">
-            <a href="/services.html#livein" class="ff-sans-normal fs-nav text-black">Careers</a>
+            <a href="/index.html#contact-us" class="ff-sans-normal fs-nav text-black">Contact Us</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="home">
-      <img src="/src/chairs.jpg" alt="Nurse helping a man move around his home." class="article__img chairs" />
+      <section class="hero service flex">
+        <picture class="hero__image">
+          <!-- <source media="(max-width: 600px)" srcset="/src/hero-m.jpg" /> -->
+          <source media="(max-width: 600px)" srcset="/src/services-m.jpg" />
+          <source media="(min-width: 1201px)" srcset="/src/services.jpg" />
+          <img src="/src/chairs.jpg" alt="Medical services laid out in hex pattern." class="" />
+        </picture>
+        <div class="hero__p">
+          <h1 class="hero__header service__header container ff-oswald text-white">About Us</h1>
+        </div>
+      </section>
+      <!-- <img src="/src/chairs.jpg" alt="Nurse helping a man move around his home." class="article__img chairs" /> -->
       <article id="board-intro" class="about-us__article container flex">
         <h2 class="ff-sans-normal fs-600">About Us</h2>
         <p>
@@ -74,6 +85,12 @@
         <p>
           Our Finance Director, Francis Martin CBE, who formerly served as the Managing Partner of BDO NI and the immediate past President of the British Chambers of Commerce, lends his remarkable acumen to our team. Notably, he was the recipient of
           the "Deal Maker of the Year" award in 2016, an accolade that speaks volumes about his proficiency in concluding impactful transactions.
+        </p>
+        <p>
+          We are pleased to announce the recent appointment of Sultana Pasha to our team, where she will lead our Quality and Compliance division. Ms. Pasha brings to the role an extensive background in regulatory compliance and quality standards,
+          with particular expertise in Health and Social Care Regulations. Throughout her illustrious career, Ms. Pasha has occupied key positions that have greatly enriched her proficiency in this domain. Notably, she served as an inspector for the
+          Care Quality Commission (CQC) and subsequently as a Director of Quality and Compliance. These experiences have equipped her with a profound understanding of both public and private sectors within Health and Social Care. We believe that Ms.
+          Pasha's comprehensive skill set and profound industry knowledge will significantly contribute to the further enhancement of our quality standards and regulatory compliance.
         </p>
         <p>
           Furthermore, we are privileged to have Fiona Hobbs, our Legal Director hailing from the distinguished London firm, Linklaters. Fiona brings an impressive wealth of expertise in handling intricate legal matters, ensuring the successful
@@ -328,7 +345,7 @@
         <ul class="fs-medium text-white">
           <li><a href="/index.html">Home</a></li>
           <li><a href="/about.html">About Us</a></li>
-          <li><a href="/services.html#livein">Careers</a></li>
+          <li><a href="/index.html#contact-us">Contact Us</a></li>
         </ul>
       </section>
     </footer>

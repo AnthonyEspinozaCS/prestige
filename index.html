@@ -13,6 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="/src/logo.png" />
     <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/services.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <div class="bg"></div>
@@ -49,7 +51,7 @@
             </div>
           </li>
           <li class="">
-            <a href="/services.html#livein" class="ff-sans-normal fs-nav text-black">Careers</a>
+            <a href="/index.html#contact-us" class="ff-sans-normal fs-nav text-black">Contact Us</a>
           </li>
         </ul>
       </nav>
@@ -165,6 +167,24 @@
             United Kingdom
           </p>
         </div>
+        <form id="contact-form" class="contact-form">
+          <input type="hidden" name="contact_number" />
+          <div class="contact-form--half">
+            <label for="user_name">Name</label>
+            <input type="text" name="user_name" />
+          </div>
+          <div class="contact-form--half">
+            <label for="user_email">Email</label>
+            <input type="email" name="user_email" />
+          </div>
+          <div class="contact-form--full">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" class="contact-form--half" />
+            <label for="message">Message</label>
+            <textarea name="message"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Submit" />
+        </form>
       </article>
     </main>
 
@@ -174,11 +194,12 @@
         <ul class="fs-medium text-white">
           <li><a href="/index.html">Home</a></li>
           <li><a href="/about.html">About Us</a></li>
-          <li><a href="/services.html#livein">Careers</a></li>
+          <li><a href="/index.html#contact-us">Contact Us</a></li>
         </ul>
       </section>
     </footer>
 
     <script src="/src/nav.js" async defer></script>
+    <script src="/src/contact.js" async defer></script>
   </body>
 </html>
