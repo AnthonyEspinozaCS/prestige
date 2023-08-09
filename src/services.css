@@ -6,7 +6,6 @@ p {
 #specialist,
 #health {
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 #personal h2,
